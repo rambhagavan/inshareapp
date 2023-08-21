@@ -1,0 +1,133 @@
+ :root {
+    --main-bg-color: #edf5fe;
+    --light-blue: #03a9f4;
+    --dark-blue: #028bca;
+  } 
+
+  body { 
+    font-family: system-ui;
+    background: var(--main-bg-color);
+    overflow: auto; 
+    color: #333;
+  }
+  
+  .logo {
+    top: 10px;
+    left: 10px;
+    width: 150px;
+  } 
+  .nav-links{
+    left:10px;
+  }
+  div.download {
+    background: #fff;
+    width: 430px;
+    max-width: 90%;
+    margin-top: 10%; 
+    margin-left:32%;
+    border-radius: 25px;
+    box-shadow: 0px 20px 20px 0px #00000017;
+    padding: 2rem;
+    text-align: center;
+}
+.filesharing_btn{
+  margin-top: 15px;
+}
+.option{
+  margin-top: 3px;
+}
+.pastebin_btn{
+  margin-top: 3px;
+}
+.button-13 {
+  background-color:  #37AEE2 ;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+} 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.logo img {
+  height: 40px; 
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.nav-links li a:hover {
+  background-color: #bbb;
+}
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th, .data-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+  background-color: #f2f2f2;
+}
+
+.data-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.data-table tbody tr:hover {
+  background-color: #eaf2ff;
+}
+
+.data-table a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+.data-table a:hover {
+  text-decoration: underline;
+}

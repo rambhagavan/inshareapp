@@ -1,0 +1,154 @@
+:root {
+    --main-bg-color: #edf5fe;
+    --light-blue: #03a9f4;
+    --dark-blue: #028bca;
+  }
+
+  body {
+    font-family: system-ui;
+    background: var(--main-bg-color);
+    height: 98vh;
+     overflow: flex;
+   /* display: flex; */
+    /*align-items: center;
+    justify-content: center; */
+  
+    color: #333;
+  }
+  .navbar {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    height: 47px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+  }
+ 
+  .logo img {
+    height: 40px;
+
+  }
+  
+  .nav-links {
+    margin-left: 80%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+  }
+  
+  .nav-links a {
+     margin-left: 10%; 
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+  }
+  .nav-links li a:hover {
+    background-color: #bbb;
+  }
+  div.download {
+    background: #fff;
+    width: 430px;
+    max-width: 90%;
+    margin-top: 5%; 
+    margin-left:32%;
+    border-radius: 25px;
+    box-shadow: 0px 20px 20px 0px #00000017;
+    padding: 2rem;
+    text-align: center;
+}
+.download__icon {
+    height: 8rem;
+}
+.download__meta h4 {
+    margin-bottom: 0;
+    line-height: 1.3;
+}
+.send-btn-container a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 8px 40px;
+    margin-top: 15px;
+    background: var(--light-blue);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+
+  .send-btn-container a:hover {
+      background: var(--dark-blue);
+  }
+  .emaildata{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .email{
+   border-top: none;
+   border-left:none;
+   border-right: none;
+   margin-top: 10px;
+   border-color: black;
+  }
+  .email:focus {
+    outline: none;
+  }
+  .DownLink{
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    margin-top: 20px;
+    border-color: black;
+   }
+   .DownLink:focus {
+     outline: none;
+   }
+  .upload{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+    justify-content: center;
+  }
+  .button-44 {
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    width: 50%;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-44:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+  }
+  
+  @media (min-width: 768px) {
+    .button-44 {
+      padding: 1rem 2rem;
+      margin-top: 20px;
+      margin-left:21%;
+    }
+  }
+  
+  
